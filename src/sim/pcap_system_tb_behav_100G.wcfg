@@ -1,0 +1,2130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="pcap_system_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="pcap_system_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000000 ms"></ZoomStartTime>
+      <ZoomEndTime time="41.767747960 ms"></ZoomEndTime>
+      <Cursor1Time time="13.001000000 ms"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="479"></NameColumnWidth>
+      <ValueColumnWidth column_width="229"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="57" />
+   <wave_markers>
+      <marker label="" time="10846541097000" />
+      <marker label="" time="1232000" />
+      <marker label="" time="12732208000" />
+      <marker label="" time="12732156800" />
+   </wave_markers>
+   <wvobject type="logic" fp_name="/pcap_system_tb/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pcap_system_tb/rst_s">
+      <obj_property name="ElementShortName">rst_s</obj_property>
+      <obj_property name="ObjectShortName">rst_s</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group184">
+      <obj_property name="label">port0_rx_axis</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/pcap_system_tb/port0_ingoing_axis_tvalid_s">
+         <obj_property name="ElementShortName">port0_ingoing_axis_tvalid_s</obj_property>
+         <obj_property name="ObjectShortName">port0_ingoing_axis_tvalid_s</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/packetRxPort0/interrupt_counter">
+         <obj_property name="ElementShortName">interrupt_counter[8:0]</obj_property>
+         <obj_property name="ObjectShortName">interrupt_counter[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/port0_ingoing_axis_tlast_s">
+         <obj_property name="ElementShortName">port0_ingoing_axis_tlast_s</obj_property>
+         <obj_property name="ObjectShortName">port0_ingoing_axis_tlast_s</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/port0_ingoing_axis_tdata_s">
+         <obj_property name="ElementShortName">port0_ingoing_axis_tdata_s[511:0]</obj_property>
+         <obj_property name="ObjectShortName">port0_ingoing_axis_tdata_s[511:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/port0_ingoing_axis_tkeep_s">
+         <obj_property name="ElementShortName">port0_ingoing_axis_tkeep_s[63:0]</obj_property>
+         <obj_property name="ObjectShortName">port0_ingoing_axis_tkeep_s[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/port0_ingoing_axis_tready_s">
+         <obj_property name="ElementShortName">port0_ingoing_axis_tready_s</obj_property>
+         <obj_property name="ObjectShortName">port0_ingoing_axis_tready_s</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group185">
+      <obj_property name="label">port1_tx_axis</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/pcap_system_tb/clk_tx_322_s">
+         <obj_property name="ElementShortName">clk_tx_322_s</obj_property>
+         <obj_property name="ObjectShortName">clk_tx_322_s</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/port1_outgoing_axis_tvalid_s">
+         <obj_property name="ElementShortName">port1_outgoing_axis_tvalid_s</obj_property>
+         <obj_property name="ObjectShortName">port1_outgoing_axis_tvalid_s</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/port1_outgoing_axis_tready_s">
+         <obj_property name="ElementShortName">port1_outgoing_axis_tready_s</obj_property>
+         <obj_property name="ObjectShortName">port1_outgoing_axis_tready_s</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/port1_outgoing_axis_tdata_s">
+         <obj_property name="ElementShortName">port1_outgoing_axis_tdata_s[511:0]</obj_property>
+         <obj_property name="ObjectShortName">port1_outgoing_axis_tdata_s[511:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/port1_outgoing_axis_tkeep_s">
+         <obj_property name="ElementShortName">port1_outgoing_axis_tkeep_s[63:0]</obj_property>
+         <obj_property name="ObjectShortName">port1_outgoing_axis_tkeep_s[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/port1_outgoing_axis_tlast_s">
+         <obj_property name="ElementShortName">port1_outgoing_axis_tlast_s</obj_property>
+         <obj_property name="ObjectShortName">port1_outgoing_axis_tlast_s</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group340">
+      <obj_property name="label">wishbone master</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/pcap_system_tb/wb_master/wb_data_i">
+         <obj_property name="ElementShortName">wb_data_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wb_data_i[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/wb_master/wb_data_o">
+         <obj_property name="ElementShortName">wb_data_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wb_data_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/wb_master/wb_addr_o">
+         <obj_property name="ElementShortName">wb_addr_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wb_addr_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/wb_master/wb_we_o">
+         <obj_property name="ElementShortName">wb_we_o</obj_property>
+         <obj_property name="ObjectShortName">wb_we_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/wb_master/wb_cyc_o">
+         <obj_property name="ElementShortName">wb_cyc_o</obj_property>
+         <obj_property name="ObjectShortName">wb_cyc_o</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/wb_master/wb_stb_o">
+         <obj_property name="ElementShortName">wb_stb_o[3:0]</obj_property>
+         <obj_property name="ObjectShortName">wb_stb_o[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/wb_master/wb_ack_i">
+         <obj_property name="ElementShortName">wb_ack_i</obj_property>
+         <obj_property name="ObjectShortName">wb_ack_i</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group333">
+      <obj_property name="label">memory</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="group" fp_name="group186">
+         <obj_property name="label">axi4-memory</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject type="group" fp_name="group1097">
+            <obj_property name="label">ar</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/dc_bram_rw_0/AXI_ARID">
+               <obj_property name="ElementShortName">AXI_ARID[3:0]</obj_property>
+               <obj_property name="ObjectShortName">AXI_ARID[3:0]</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/dc_bram_rw_0/AXI_ARADDR">
+               <obj_property name="ElementShortName">AXI_ARADDR[31:0]</obj_property>
+               <obj_property name="ObjectShortName">AXI_ARADDR[31:0]</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/dc_bram_rw_0/AXI_ARLEN">
+               <obj_property name="ElementShortName">AXI_ARLEN[7:0]</obj_property>
+               <obj_property name="ObjectShortName">AXI_ARLEN[7:0]</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/dc_bram_rw_0/AXI_ARSIZE">
+               <obj_property name="ElementShortName">AXI_ARSIZE[2:0]</obj_property>
+               <obj_property name="ObjectShortName">AXI_ARSIZE[2:0]</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/dc_bram_rw_0/AXI_ARBURST">
+               <obj_property name="ElementShortName">AXI_ARBURST[1:0]</obj_property>
+               <obj_property name="ObjectShortName">AXI_ARBURST[1:0]</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/dc_bram_rw_0/AXI_ARLOCK">
+               <obj_property name="ElementShortName">AXI_ARLOCK</obj_property>
+               <obj_property name="ObjectShortName">AXI_ARLOCK</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/dc_bram_rw_0/AXI_ARCACHE">
+               <obj_property name="ElementShortName">AXI_ARCACHE[3:0]</obj_property>
+               <obj_property name="ObjectShortName">AXI_ARCACHE[3:0]</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/dc_bram_rw_0/AXI_ARPROT">
+               <obj_property name="ElementShortName">AXI_ARPROT[2:0]</obj_property>
+               <obj_property name="ObjectShortName">AXI_ARPROT[2:0]</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/dc_bram_rw_0/AXI_ARQOS">
+               <obj_property name="ElementShortName">AXI_ARQOS[3:0]</obj_property>
+               <obj_property name="ObjectShortName">AXI_ARQOS[3:0]</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/dc_bram_rw_0/AXI_ARVALID">
+               <obj_property name="ElementShortName">AXI_ARVALID</obj_property>
+               <obj_property name="ObjectShortName">AXI_ARVALID</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/dc_bram_rw_0/AXI_ARREADY">
+               <obj_property name="ElementShortName">AXI_ARREADY</obj_property>
+               <obj_property name="ObjectShortName">AXI_ARREADY</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="group1098">
+            <obj_property name="label">aw</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/dc_bram_rw_0/AXI_AWID">
+               <obj_property name="ElementShortName">AXI_AWID[3:0]</obj_property>
+               <obj_property name="ObjectShortName">AXI_AWID[3:0]</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/dc_bram_rw_0/AXI_AWADDR">
+               <obj_property name="ElementShortName">AXI_AWADDR[31:0]</obj_property>
+               <obj_property name="ObjectShortName">AXI_AWADDR[31:0]</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/dc_bram_rw_0/AXI_AWLEN">
+               <obj_property name="ElementShortName">AXI_AWLEN[7:0]</obj_property>
+               <obj_property name="ObjectShortName">AXI_AWLEN[7:0]</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/dc_bram_rw_0/AXI_AWSIZE">
+               <obj_property name="ElementShortName">AXI_AWSIZE[2:0]</obj_property>
+               <obj_property name="ObjectShortName">AXI_AWSIZE[2:0]</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/dc_bram_rw_0/AXI_AWBURST">
+               <obj_property name="ElementShortName">AXI_AWBURST[1:0]</obj_property>
+               <obj_property name="ObjectShortName">AXI_AWBURST[1:0]</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/dc_bram_rw_0/AXI_AWLOCK">
+               <obj_property name="ElementShortName">AXI_AWLOCK</obj_property>
+               <obj_property name="ObjectShortName">AXI_AWLOCK</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/dc_bram_rw_0/AXI_AWCACHE">
+               <obj_property name="ElementShortName">AXI_AWCACHE[3:0]</obj_property>
+               <obj_property name="ObjectShortName">AXI_AWCACHE[3:0]</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/dc_bram_rw_0/AXI_AWPROT">
+               <obj_property name="ElementShortName">AXI_AWPROT[2:0]</obj_property>
+               <obj_property name="ObjectShortName">AXI_AWPROT[2:0]</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/dc_bram_rw_0/AXI_AWQOS">
+               <obj_property name="ElementShortName">AXI_AWQOS[3:0]</obj_property>
+               <obj_property name="ObjectShortName">AXI_AWQOS[3:0]</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/dc_bram_rw_0/AXI_AWVALID">
+               <obj_property name="ElementShortName">AXI_AWVALID</obj_property>
+               <obj_property name="ObjectShortName">AXI_AWVALID</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/dc_bram_rw_0/AXI_AWREADY">
+               <obj_property name="ElementShortName">AXI_AWREADY</obj_property>
+               <obj_property name="ObjectShortName">AXI_AWREADY</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="group1099">
+            <obj_property name="label">b</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/dc_bram_rw_0/AXI_BID">
+               <obj_property name="ElementShortName">AXI_BID[3:0]</obj_property>
+               <obj_property name="ObjectShortName">AXI_BID[3:0]</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/dc_bram_rw_0/AXI_BRESP">
+               <obj_property name="ElementShortName">AXI_BRESP[1:0]</obj_property>
+               <obj_property name="ObjectShortName">AXI_BRESP[1:0]</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/dc_bram_rw_0/AXI_BVALID">
+               <obj_property name="ElementShortName">AXI_BVALID</obj_property>
+               <obj_property name="ObjectShortName">AXI_BVALID</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/dc_bram_rw_0/AXI_BREADY">
+               <obj_property name="ElementShortName">AXI_BREADY</obj_property>
+               <obj_property name="ObjectShortName">AXI_BREADY</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="group1100">
+            <obj_property name="label">r</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/dc_bram_rw_0/AXI_RID">
+               <obj_property name="ElementShortName">AXI_RID[3:0]</obj_property>
+               <obj_property name="ObjectShortName">AXI_RID[3:0]</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/dc_bram_rw_0/AXI_RDATA">
+               <obj_property name="ElementShortName">AXI_RDATA[511:0]</obj_property>
+               <obj_property name="ObjectShortName">AXI_RDATA[511:0]</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/dc_bram_rw_0/AXI_RRESP">
+               <obj_property name="ElementShortName">AXI_RRESP[1:0]</obj_property>
+               <obj_property name="ObjectShortName">AXI_RRESP[1:0]</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/dc_bram_rw_0/AXI_RLAST">
+               <obj_property name="ElementShortName">AXI_RLAST</obj_property>
+               <obj_property name="ObjectShortName">AXI_RLAST</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/dc_bram_rw_0/AXI_RVALID">
+               <obj_property name="ElementShortName">AXI_RVALID</obj_property>
+               <obj_property name="ObjectShortName">AXI_RVALID</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/dc_bram_rw_0/AXI_RREADY">
+               <obj_property name="ElementShortName">AXI_RREADY</obj_property>
+               <obj_property name="ObjectShortName">AXI_RREADY</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="group1101">
+            <obj_property name="label">w</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/dc_bram_rw_0/AXI_WDATA">
+               <obj_property name="ElementShortName">AXI_WDATA[511:0]</obj_property>
+               <obj_property name="ObjectShortName">AXI_WDATA[511:0]</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/dc_bram_rw_0/AXI_WSTRB">
+               <obj_property name="ElementShortName">AXI_WSTRB[64:0]</obj_property>
+               <obj_property name="ObjectShortName">AXI_WSTRB[64:0]</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/dc_bram_rw_0/AXI_WLAST">
+               <obj_property name="ElementShortName">AXI_WLAST</obj_property>
+               <obj_property name="ObjectShortName">AXI_WLAST</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/dc_bram_rw_0/AXI_WVALID">
+               <obj_property name="ElementShortName">AXI_WVALID</obj_property>
+               <obj_property name="ObjectShortName">AXI_WVALID</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/dc_bram_rw_0/AXI_WREADY">
+               <obj_property name="ElementShortName">AXI_WREADY</obj_property>
+               <obj_property name="ObjectShortName">AXI_WREADY</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider187" type="divider">
+      <obj_property name="label">RX-FIFO</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group16462">
+      <obj_property name="label">RX-Fifo</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="group" fp_name="group313">
+         <obj_property name="label">s_axis</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_fifo/s_axis_tready_o">
+            <obj_property name="ElementShortName">s_axis_tready_o</obj_property>
+            <obj_property name="ObjectShortName">s_axis_tready_o</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_fifo/s_axis_tvalid_i">
+            <obj_property name="ElementShortName">s_axis_tvalid_i</obj_property>
+            <obj_property name="ObjectShortName">s_axis_tvalid_i</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_fifo/s_axis_tdata_i">
+            <obj_property name="ElementShortName">s_axis_tdata_i[511:0]</obj_property>
+            <obj_property name="ObjectShortName">s_axis_tdata_i[511:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_fifo/s_axis_tkeep_i">
+            <obj_property name="ElementShortName">s_axis_tkeep_i[63:0]</obj_property>
+            <obj_property name="ObjectShortName">s_axis_tkeep_i[63:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_fifo/s_axis_tlast_i">
+            <obj_property name="ElementShortName">s_axis_tlast_i</obj_property>
+            <obj_property name="ObjectShortName">s_axis_tlast_i</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group320">
+         <obj_property name="label">m_axis</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_fifo/m_axis_tready_i">
+            <obj_property name="ElementShortName">m_axis_tready_i</obj_property>
+            <obj_property name="ObjectShortName">m_axis_tready_i</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_fifo/m_axis_tdata_o">
+            <obj_property name="ElementShortName">m_axis_tdata_o[511:0]</obj_property>
+            <obj_property name="ObjectShortName">m_axis_tdata_o[511:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_fifo/m_axis_tkeep_o">
+            <obj_property name="ElementShortName">m_axis_tkeep_o[63:0]</obj_property>
+            <obj_property name="ObjectShortName">m_axis_tkeep_o[63:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_fifo/m_axis_tlast_o">
+            <obj_property name="ElementShortName">m_axis_tlast_o</obj_property>
+            <obj_property name="ObjectShortName">m_axis_tlast_o</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_fifo/m_axis_tvalid_o">
+            <obj_property name="ElementShortName">m_axis_tvalid_o</obj_property>
+            <obj_property name="ObjectShortName">m_axis_tvalid_o</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_fifo/m_packet_length_o">
+            <obj_property name="ElementShortName">m_packet_length_o[10:0]</obj_property>
+            <obj_property name="ObjectShortName">m_packet_length_o[10:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_fifo/revert_rec_packet">
+         <obj_property name="ElementShortName">revert_rec_packet</obj_property>
+         <obj_property name="ObjectShortName">revert_rec_packet</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_fifo/store_data_s">
+         <obj_property name="ElementShortName">store_data_s</obj_property>
+         <obj_property name="ObjectShortName">store_data_s</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_fifo/addr_in">
+         <obj_property name="ElementShortName">addr_in[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_in[9:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_fifo/addr_out">
+         <obj_property name="ElementShortName">addr_out[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_out[9:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_fifo/full">
+         <obj_property name="ElementShortName">full</obj_property>
+         <obj_property name="ObjectShortName">full</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_fifo/empty">
+         <obj_property name="ElementShortName">empty</obj_property>
+         <obj_property name="ObjectShortName">empty</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_fifo/istate">
+         <obj_property name="ElementShortName">istate[1:0]</obj_property>
+         <obj_property name="ObjectShortName">istate[1:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_fifo/ostate">
+         <obj_property name="ElementShortName">ostate[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ostate[1:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_fifo/plength_addr_in_s">
+         <obj_property name="ElementShortName">plength_addr_in_s[9:0]</obj_property>
+         <obj_property name="ObjectShortName">plength_addr_in_s[9:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_fifo/plength_addr_out_s">
+         <obj_property name="ElementShortName">plength_addr_out_s[9:0]</obj_property>
+         <obj_property name="ObjectShortName">plength_addr_out_s[9:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_fifo/store_rec_bytes_s">
+         <obj_property name="ElementShortName">store_rec_bytes_s</obj_property>
+         <obj_property name="ObjectShortName">store_rec_bytes_s</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_fifo/send_next_data_s">
+         <obj_property name="ElementShortName">send_next_data_s</obj_property>
+         <obj_property name="ObjectShortName">send_next_data_s</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group541">
+      <obj_property name="label">QueueIDCutter</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/QueueIdCutter/clk_i">
+         <obj_property name="ElementShortName">clk_i</obj_property>
+         <obj_property name="ObjectShortName">clk_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/QueueIdCutter/rst_i">
+         <obj_property name="ElementShortName">rst_i</obj_property>
+         <obj_property name="ObjectShortName">rst_i</obj_property>
+      </wvobject>
+      <wvobject type="group" fp_name="group569">
+         <obj_property name="label">s_axis</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/QueueIdCutter/s_axis_tready_o">
+            <obj_property name="ElementShortName">s_axis_tready_o</obj_property>
+            <obj_property name="ObjectShortName">s_axis_tready_o</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/QueueIdCutter/s_axis_tvalid_i">
+            <obj_property name="ElementShortName">s_axis_tvalid_i</obj_property>
+            <obj_property name="ObjectShortName">s_axis_tvalid_i</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/QueueIdCutter/s_axis_tdata_i">
+            <obj_property name="ElementShortName">s_axis_tdata_i[511:0]</obj_property>
+            <obj_property name="ObjectShortName">s_axis_tdata_i[511:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/QueueIdCutter/s_axis_tkeep_i">
+            <obj_property name="ElementShortName">s_axis_tkeep_i[63:0]</obj_property>
+            <obj_property name="ObjectShortName">s_axis_tkeep_i[63:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/QueueIdCutter/s_axis_tlast_i">
+            <obj_property name="ElementShortName">s_axis_tlast_i</obj_property>
+            <obj_property name="ObjectShortName">s_axis_tlast_i</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/QueueIdCutter/s_axis_packet_length_i">
+            <obj_property name="ElementShortName">s_axis_packet_length_i[10:0]</obj_property>
+            <obj_property name="ObjectShortName">s_axis_packet_length_i[10:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group570">
+         <obj_property name="label">m_axis</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/QueueIdCutter/m_axis_tready_i">
+            <obj_property name="ElementShortName">m_axis_tready_i</obj_property>
+            <obj_property name="ObjectShortName">m_axis_tready_i</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/QueueIdCutter/m_axis_tvalid_o">
+            <obj_property name="ElementShortName">m_axis_tvalid_o</obj_property>
+            <obj_property name="ObjectShortName">m_axis_tvalid_o</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/QueueIdCutter/m_axis_tdata_o">
+            <obj_property name="ElementShortName">m_axis_tdata_o[511:0]</obj_property>
+            <obj_property name="ObjectShortName">m_axis_tdata_o[511:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/QueueIdCutter/m_axis_tkeep_o">
+            <obj_property name="ElementShortName">m_axis_tkeep_o[63:0]</obj_property>
+            <obj_property name="ObjectShortName">m_axis_tkeep_o[63:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/QueueIdCutter/m_axis_tlast_o">
+            <obj_property name="ElementShortName">m_axis_tlast_o</obj_property>
+            <obj_property name="ObjectShortName">m_axis_tlast_o</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/QueueIdCutter/m_axis_packet_length_o">
+            <obj_property name="ElementShortName">m_axis_packet_length_o[10:0]</obj_property>
+            <obj_property name="ObjectShortName">m_axis_packet_length_o[10:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/QueueIdCutter/m_queue_id_o">
+            <obj_property name="ElementShortName">m_queue_id_o[31:0]</obj_property>
+            <obj_property name="ObjectShortName">m_queue_id_o[31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group571">
+         <obj_property name="label">internal</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/QueueIdCutter/state">
+            <obj_property name="ElementShortName">state[2:0]</obj_property>
+            <obj_property name="ObjectShortName">state[2:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/QueueIdCutter/data_part_one_s">
+            <obj_property name="ElementShortName">data_part_one_s[31:0]</obj_property>
+            <obj_property name="ObjectShortName">data_part_one_s[31:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/QueueIdCutter/data_part_two_s">
+            <obj_property name="ElementShortName">data_part_two_s[479:0]</obj_property>
+            <obj_property name="ObjectShortName">data_part_two_s[479:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/QueueIdCutter/data_part_one_inv_s">
+            <obj_property name="ElementShortName">data_part_one_inv_s[31:0]</obj_property>
+            <obj_property name="ObjectShortName">data_part_one_inv_s[31:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/QueueIdCutter/data_part_two_reg_s">
+            <obj_property name="ElementShortName">data_part_two_reg_s[479:0]</obj_property>
+            <obj_property name="ObjectShortName">data_part_two_reg_s[479:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/QueueIdCutter/data_both_s">
+            <obj_property name="ElementShortName">data_both_s[511:0]</obj_property>
+            <obj_property name="ObjectShortName">data_both_s[511:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/QueueIdCutter/data_part_two_keep_s">
+            <obj_property name="ElementShortName">data_part_two_keep_s[59:0]</obj_property>
+            <obj_property name="ObjectShortName">data_part_two_keep_s[59:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/QueueIdCutter/data_part_one_keep_s">
+            <obj_property name="ElementShortName">data_part_one_keep_s[3:0]</obj_property>
+            <obj_property name="ObjectShortName">data_part_one_keep_s[3:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/QueueIdCutter/store_id_s">
+            <obj_property name="ElementShortName">store_id_s</obj_property>
+            <obj_property name="ObjectShortName">store_id_s</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/QueueIdCutter/store_part_two_s">
+            <obj_property name="ElementShortName">store_part_two_s</obj_property>
+            <obj_property name="ObjectShortName">store_part_two_s</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider16463" type="divider">
+      <obj_property name="label">DDR_Mem_Alloc</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group496">
+      <obj_property name="label">mem_free job_arbiter</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="group" fp_name="group885">
+         <obj_property name="label">p1</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/free_mem_queues_inst/p1_data_i">
+            <obj_property name="ElementShortName">p1_data_i[31:0]</obj_property>
+            <obj_property name="ObjectShortName">p1_data_i[31:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/free_mem_queues_inst/p1_valid_i">
+            <obj_property name="ElementShortName">p1_valid_i</obj_property>
+            <obj_property name="ObjectShortName">p1_valid_i</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/free_mem_queues_inst/p1_ack_o">
+            <obj_property name="ElementShortName">p1_ack_o</obj_property>
+            <obj_property name="ObjectShortName">p1_ack_o</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/free_mem_queues_inst/p1_ready_o">
+            <obj_property name="ElementShortName">p1_ready_o</obj_property>
+            <obj_property name="ObjectShortName">p1_ready_o</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group886">
+         <obj_property name="label">p2</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/free_mem_queues_inst/p2_data_i">
+            <obj_property name="ElementShortName">p2_data_i[31:0]</obj_property>
+            <obj_property name="ObjectShortName">p2_data_i[31:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/free_mem_queues_inst/p2_valid_i">
+            <obj_property name="ElementShortName">p2_valid_i</obj_property>
+            <obj_property name="ObjectShortName">p2_valid_i</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/free_mem_queues_inst/p2_ack_o">
+            <obj_property name="ElementShortName">p2_ack_o</obj_property>
+            <obj_property name="ObjectShortName">p2_ack_o</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/free_mem_queues_inst/p2_ready_o">
+            <obj_property name="ElementShortName">p2_ready_o</obj_property>
+            <obj_property name="ObjectShortName">p2_ready_o</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group887">
+         <obj_property name="label">out</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/free_mem_queues_inst/out_data_o">
+            <obj_property name="ElementShortName">out_data_o[31:0]</obj_property>
+            <obj_property name="ObjectShortName">out_data_o[31:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/free_mem_queues_inst/out_valid_o">
+            <obj_property name="ElementShortName">out_valid_o</obj_property>
+            <obj_property name="ObjectShortName">out_valid_o</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/free_mem_queues_inst/out_pop_i">
+            <obj_property name="ElementShortName">out_pop_i</obj_property>
+            <obj_property name="ObjectShortName">out_pop_i</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group161">
+      <obj_property name="label">Mem_Alloc</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="group" fp_name="group321">
+         <obj_property name="label">malloc</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/mem_alloc_unit_inst/packet_length_i">
+            <obj_property name="ElementShortName">packet_length_i[10:0]</obj_property>
+            <obj_property name="ObjectShortName">packet_length_i[10:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/mem_alloc_unit_inst/next_addr_o">
+            <obj_property name="ElementShortName">next_addr_o[31:0]</obj_property>
+            <obj_property name="ObjectShortName">next_addr_o[31:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/mem_alloc_unit_inst/next_addr_valid_o">
+            <obj_property name="ElementShortName">next_addr_valid_o</obj_property>
+            <obj_property name="ObjectShortName">next_addr_valid_o</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/mem_alloc_unit_inst/addr_ack_i">
+            <obj_property name="ElementShortName">addr_ack_i</obj_property>
+            <obj_property name="ObjectShortName">addr_ack_i</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group320">
+         <obj_property name="label">free</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/mem_alloc_unit_inst/free_mem_addr_i">
+            <obj_property name="ElementShortName">free_mem_addr_i[31:0]</obj_property>
+            <obj_property name="ObjectShortName">free_mem_addr_i[31:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/mem_alloc_unit_inst/free_mem_i">
+            <obj_property name="ElementShortName">free_mem_i</obj_property>
+            <obj_property name="ObjectShortName">free_mem_i</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/mem_alloc_unit_inst/free_mem_ack_o">
+            <obj_property name="ElementShortName">free_mem_ack_o</obj_property>
+            <obj_property name="ObjectShortName">free_mem_ack_o</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group337">
+         <obj_property name="label">internal</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/mem_alloc_unit_inst/alloc_state">
+            <obj_property name="ElementShortName">alloc_state[1:0]</obj_property>
+            <obj_property name="ObjectShortName">alloc_state[1:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FFD700</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/mem_alloc_unit_inst/write_valid_malloc_s">
+            <obj_property name="ElementShortName">write_valid_malloc_s</obj_property>
+            <obj_property name="ObjectShortName">write_valid_malloc_s</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/mem_alloc_unit_inst/addr_valid_malloc_s">
+            <obj_property name="ElementShortName">addr_valid_malloc_s[6:0]</obj_property>
+            <obj_property name="ObjectShortName">addr_valid_malloc_s[6:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/mem_alloc_unit_inst/data_read_valid_malloc_s">
+            <obj_property name="ElementShortName">data_read_valid_malloc_s[31:0]</obj_property>
+            <obj_property name="ObjectShortName">data_read_valid_malloc_s[31:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/mem_alloc_unit_inst/free_state">
+            <obj_property name="ElementShortName">free_state[1:0]</obj_property>
+            <obj_property name="ObjectShortName">free_state[1:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FFD700</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/mem_alloc_unit_inst/write_valid_free_s">
+            <obj_property name="ElementShortName">write_valid_free_s</obj_property>
+            <obj_property name="ObjectShortName">write_valid_free_s</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/mem_alloc_unit_inst/addr_valid_free_s">
+            <obj_property name="ElementShortName">addr_valid_free_s[6:0]</obj_property>
+            <obj_property name="ObjectShortName">addr_valid_free_s[6:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/mem_alloc_unit_inst/data_read_valid_free_s">
+            <obj_property name="ElementShortName">data_read_valid_free_s[31:0]</obj_property>
+            <obj_property name="ObjectShortName">data_read_valid_free_s[31:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/mem_alloc_unit_inst/data_write_valid_free_s">
+            <obj_property name="ElementShortName">data_write_valid_free_s[31:0]</obj_property>
+            <obj_property name="ObjectShortName">data_write_valid_free_s[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/mem_alloc_unit_inst/num_mallocs">
+         <obj_property name="ElementShortName">num_mallocs[31:0]</obj_property>
+         <obj_property name="ObjectShortName">num_mallocs[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/mem_alloc_unit_inst/num_frees">
+         <obj_property name="ElementShortName">num_frees[31:0]</obj_property>
+         <obj_property name="ObjectShortName">num_frees[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider16464" type="divider">
+      <obj_property name="label">Rx-Handler</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group123">
+      <obj_property name="label">RX-Handler</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/next_addr_i">
+         <obj_property name="ElementShortName">next_addr_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">next_addr_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/next_addr_valid_i">
+         <obj_property name="ElementShortName">next_addr_valid_i</obj_property>
+         <obj_property name="ObjectShortName">next_addr_valid_i</obj_property>
+      </wvobject>
+      <wvobject type="group" fp_name="group16473">
+         <obj_property name="label">Rx-Handler: AXIS_i</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/s_axis_tready_o">
+            <obj_property name="ElementShortName">s_axis_tready_o</obj_property>
+            <obj_property name="ObjectShortName">s_axis_tready_o</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/s_axis_tvalid_i">
+            <obj_property name="ElementShortName">s_axis_tvalid_i</obj_property>
+            <obj_property name="ObjectShortName">s_axis_tvalid_i</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/s_axis_tdata_i">
+            <obj_property name="ElementShortName">s_axis_tdata_i[511:0]</obj_property>
+            <obj_property name="ObjectShortName">s_axis_tdata_i[511:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/s_axis_tkeep_i">
+            <obj_property name="ElementShortName">s_axis_tkeep_i[63:0]</obj_property>
+            <obj_property name="ObjectShortName">s_axis_tkeep_i[63:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/s_axis_tlast_i">
+            <obj_property name="ElementShortName">s_axis_tlast_i</obj_property>
+            <obj_property name="ObjectShortName">s_axis_tlast_i</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/s_axis_packet_length_i">
+            <obj_property name="ElementShortName">s_axis_packet_length_i[10:0]</obj_property>
+            <obj_property name="ObjectShortName">s_axis_packet_length_i[10:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/s_axis_queue_id_i">
+            <obj_property name="ElementShortName">s_axis_queue_id_i[31:0]</obj_property>
+            <obj_property name="ObjectShortName">s_axis_queue_id_i[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/aw_state">
+         <obj_property name="ElementShortName">aw_state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">aw_state[1:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/w_state">
+         <obj_property name="ElementShortName">w_state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">w_state[2:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="group" fp_name="group328">
+         <obj_property name="label">internal</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/set_next_data_s">
+            <obj_property name="ElementShortName">set_next_data_s</obj_property>
+            <obj_property name="ObjectShortName">set_next_data_s</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/valid_ids">
+            <obj_property name="ElementShortName">valid_ids[3:0]</obj_property>
+            <obj_property name="ObjectShortName">valid_ids[3:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/set_addr_s">
+            <obj_property name="ElementShortName">set_addr_s</obj_property>
+            <obj_property name="ObjectShortName">set_addr_s</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/next_unused_id_s">
+            <obj_property name="ElementShortName">next_unused_id_s[1:0]</obj_property>
+            <obj_property name="ObjectShortName">next_unused_id_s[1:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/ready_to_write_s">
+            <obj_property name="ElementShortName">ready_to_write_s</obj_property>
+            <obj_property name="ObjectShortName">ready_to_write_s</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/set_eqm_data_s">
+            <obj_property name="ElementShortName">set_eqm_data_s</obj_property>
+            <obj_property name="ObjectShortName">set_eqm_data_s</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/prepare_eqm_data_s">
+            <obj_property name="ElementShortName">prepare_eqm_data_s</obj_property>
+            <obj_property name="ObjectShortName">prepare_eqm_data_s</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/eqm_addr_reg_s">
+            <obj_property name="ElementShortName">eqm_addr_reg_s[31:0]</obj_property>
+            <obj_property name="ObjectShortName">eqm_addr_reg_s[31:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/eqm_queue_id_o_reg">
+            <obj_property name="ElementShortName">eqm_queue_id_o_reg[3:0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">eqm_queue_id_o_reg[3:0][31:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/eqm_packet_length_o_reg">
+            <obj_property name="ElementShortName">eqm_packet_length_o_reg[3:0][10:0]</obj_property>
+            <obj_property name="ObjectShortName">eqm_packet_length_o_reg[3:0][10:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/eqm_addr_o_reg">
+            <obj_property name="ElementShortName">eqm_addr_o_reg[3:0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">eqm_addr_o_reg[3:0][31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/next_unused_id_s">
+         <obj_property name="ElementShortName">next_unused_id_s[1:0]</obj_property>
+         <obj_property name="ObjectShortName">next_unused_id_s[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="group" fp_name="group16495">
+         <obj_property name="label">Rx-Handler: AXI_o</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="group928">
+            <obj_property name="label">aw_axi</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+            <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/axi_awid_o">
+               <obj_property name="ElementShortName">axi_awid_o[1:0]</obj_property>
+               <obj_property name="ObjectShortName">axi_awid_o[1:0]</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/axi_awaddr_o">
+               <obj_property name="ElementShortName">axi_awaddr_o[31:0]</obj_property>
+               <obj_property name="ObjectShortName">axi_awaddr_o[31:0]</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/axi_awlen_o">
+               <obj_property name="ElementShortName">axi_awlen_o[7:0]</obj_property>
+               <obj_property name="ObjectShortName">axi_awlen_o[7:0]</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/axi_awsize_o">
+               <obj_property name="ElementShortName">axi_awsize_o[2:0]</obj_property>
+               <obj_property name="ObjectShortName">axi_awsize_o[2:0]</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/axi_awburst_o">
+               <obj_property name="ElementShortName">axi_awburst_o[1:0]</obj_property>
+               <obj_property name="ObjectShortName">axi_awburst_o[1:0]</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/axi_awlock_o">
+               <obj_property name="ElementShortName">axi_awlock_o[0:0]</obj_property>
+               <obj_property name="ObjectShortName">axi_awlock_o[0:0]</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/axi_awcache_o">
+               <obj_property name="ElementShortName">axi_awcache_o[3:0]</obj_property>
+               <obj_property name="ObjectShortName">axi_awcache_o[3:0]</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/axi_awprot_o">
+               <obj_property name="ElementShortName">axi_awprot_o[2:0]</obj_property>
+               <obj_property name="ObjectShortName">axi_awprot_o[2:0]</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/axi_awqos_o">
+               <obj_property name="ElementShortName">axi_awqos_o[3:0]</obj_property>
+               <obj_property name="ObjectShortName">axi_awqos_o[3:0]</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/axi_awvalid_o">
+               <obj_property name="ElementShortName">axi_awvalid_o</obj_property>
+               <obj_property name="ObjectShortName">axi_awvalid_o</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/axi_awready_i">
+               <obj_property name="ElementShortName">axi_awready_i</obj_property>
+               <obj_property name="ObjectShortName">axi_awready_i</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="group927">
+            <obj_property name="label">w_axi</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+            <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/axi_wid_o">
+               <obj_property name="ElementShortName">axi_wid_o[1:0]</obj_property>
+               <obj_property name="ObjectShortName">axi_wid_o[1:0]</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/axi_wdata_o">
+               <obj_property name="ElementShortName">axi_wdata_o[511:0]</obj_property>
+               <obj_property name="ObjectShortName">axi_wdata_o[511:0]</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/axi_wstrb_o">
+               <obj_property name="ElementShortName">axi_wstrb_o[63:0]</obj_property>
+               <obj_property name="ObjectShortName">axi_wstrb_o[63:0]</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/axi_wlast_o">
+               <obj_property name="ElementShortName">axi_wlast_o</obj_property>
+               <obj_property name="ObjectShortName">axi_wlast_o</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/axi_wvalid_o">
+               <obj_property name="ElementShortName">axi_wvalid_o</obj_property>
+               <obj_property name="ObjectShortName">axi_wvalid_o</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/axi_wready_i">
+               <obj_property name="ElementShortName">axi_wready_i</obj_property>
+               <obj_property name="ObjectShortName">axi_wready_i</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="group929">
+            <obj_property name="label">b_axi</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+            <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/axi_bid_i">
+               <obj_property name="ElementShortName">axi_bid_i[1:0]</obj_property>
+               <obj_property name="ObjectShortName">axi_bid_i[1:0]</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/axi_bresp_i">
+               <obj_property name="ElementShortName">axi_bresp_i[1:0]</obj_property>
+               <obj_property name="ObjectShortName">axi_bresp_i[1:0]</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/axi_bvalid_i">
+               <obj_property name="ElementShortName">axi_bvalid_i</obj_property>
+               <obj_property name="ObjectShortName">axi_bvalid_i</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/axi_bready_o">
+               <obj_property name="ElementShortName">axi_bready_o</obj_property>
+               <obj_property name="ObjectShortName">axi_bready_o</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group574">
+         <obj_property name="label">eqm</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/eqm_valid_o">
+            <obj_property name="ElementShortName">eqm_valid_o</obj_property>
+            <obj_property name="ObjectShortName">eqm_valid_o</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/eqm_packet_length_o">
+            <obj_property name="ElementShortName">eqm_packet_length_o[10:0]</obj_property>
+            <obj_property name="ObjectShortName">eqm_packet_length_o[10:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/eqm_queue_id_o">
+            <obj_property name="ElementShortName">eqm_queue_id_o[31:0]</obj_property>
+            <obj_property name="ObjectShortName">eqm_queue_id_o[31:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/eqm_addr_o">
+            <obj_property name="ElementShortName">eqm_addr_o[31:0]</obj_property>
+            <obj_property name="ObjectShortName">eqm_addr_o[31:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/rx_handler/eqm_ready_i">
+            <obj_property name="ElementShortName">eqm_ready_i</obj_property>
+            <obj_property name="ObjectShortName">eqm_ready_i</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider749" type="divider">
+      <obj_property name="label">eqm-interface</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group754">
+      <obj_property name="label">eqm-interface</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/eqm_valid_s">
+         <obj_property name="ElementShortName">eqm_valid_s</obj_property>
+         <obj_property name="ObjectShortName">eqm_valid_s</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/eqm_packet_length_s">
+         <obj_property name="ElementShortName">eqm_packet_length_s[10:0]</obj_property>
+         <obj_property name="ObjectShortName">eqm_packet_length_s[10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/eqm_queue_id_s">
+         <obj_property name="ElementShortName">eqm_queue_id_s[31:0]</obj_property>
+         <obj_property name="ObjectShortName">eqm_queue_id_s[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/eqm_addr_s">
+         <obj_property name="ElementShortName">eqm_addr_s[31:0]</obj_property>
+         <obj_property name="ObjectShortName">eqm_addr_s[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/eqm_p_accept_ready_s">
+         <obj_property name="ElementShortName">eqm_p_accept_ready_s</obj_property>
+         <obj_property name="ObjectShortName">eqm_p_accept_ready_s</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider115" type="divider">
+      <obj_property name="label">queue_mem</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group3818">
+      <obj_property name="label">wb</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/wb_queue_depth_cyc_i">
+         <obj_property name="ElementShortName">wb_queue_depth_cyc_i</obj_property>
+         <obj_property name="ObjectShortName">wb_queue_depth_cyc_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/wb_queue_depth_adr_i">
+         <obj_property name="ElementShortName">wb_queue_depth_adr_i[21:0]</obj_property>
+         <obj_property name="ObjectShortName">wb_queue_depth_adr_i[21:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/wb_queue_depth_we_i">
+         <obj_property name="ElementShortName">wb_queue_depth_we_i</obj_property>
+         <obj_property name="ObjectShortName">wb_queue_depth_we_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/wb_queue_depth_dat_i">
+         <obj_property name="ElementShortName">wb_queue_depth_dat_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wb_queue_depth_dat_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/wb_queue_depth_ack_o">
+         <obj_property name="ElementShortName">wb_queue_depth_ack_o</obj_property>
+         <obj_property name="ObjectShortName">wb_queue_depth_ack_o</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/wb_queue_depth_dat_o">
+         <obj_property name="ElementShortName">wb_queue_depth_dat_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wb_queue_depth_dat_o[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group561">
+      <obj_property name="label">statistic</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/num_packet_push_s">
+         <obj_property name="ElementShortName">num_packet_push_s[31:0]</obj_property>
+         <obj_property name="ObjectShortName">num_packet_push_s[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/num_packet_pop_s">
+         <obj_property name="ElementShortName">num_packet_pop_s[31:0]</obj_property>
+         <obj_property name="ObjectShortName">num_packet_pop_s[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/push_state">
+         <obj_property name="ElementShortName">push_state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">push_state[2:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/pop_state">
+         <obj_property name="ElementShortName">pop_state[3:0]</obj_property>
+         <obj_property name="ObjectShortName">pop_state[3:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group159">
+      <obj_property name="label">descriptor_allocator</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="group" fp_name="group892">
+         <obj_property name="label">alloc_interface</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/next_descriptor_addr_s">
+            <obj_property name="ElementShortName">next_descriptor_addr_s[23:0]</obj_property>
+            <obj_property name="ObjectShortName">next_descriptor_addr_s[23:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/next_descriptor_addr_valid_s">
+            <obj_property name="ElementShortName">next_descriptor_addr_valid_s</obj_property>
+            <obj_property name="ObjectShortName">next_descriptor_addr_valid_s</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/ack_descriptor_addr_s">
+            <obj_property name="ElementShortName">ack_descriptor_addr_s</obj_property>
+            <obj_property name="ObjectShortName">ack_descriptor_addr_s</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group891">
+         <obj_property name="label">free_interface</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="group420">
+            <obj_property name="label">internal</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/free_descriptor_addr_s">
+            <obj_property name="ElementShortName">free_descriptor_addr_s[23:0]</obj_property>
+            <obj_property name="ObjectShortName">free_descriptor_addr_s[23:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/free_descriptor_valid_s">
+            <obj_property name="ElementShortName">free_descriptor_valid_s</obj_property>
+            <obj_property name="ObjectShortName">free_descriptor_valid_s</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/free_descriptor_ack_s">
+            <obj_property name="ElementShortName">free_descriptor_ack_s</obj_property>
+            <obj_property name="ObjectShortName">free_descriptor_ack_s</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/free_drop_descriptor_addr_s">
+            <obj_property name="ElementShortName">free_drop_descriptor_addr_s[23:0]</obj_property>
+            <obj_property name="ObjectShortName">free_drop_descriptor_addr_s[23:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/free_drop_descriptor_valid_s">
+            <obj_property name="ElementShortName">free_drop_descriptor_valid_s</obj_property>
+            <obj_property name="ObjectShortName">free_drop_descriptor_valid_s</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/free_drop_descriptor_ack_s">
+            <obj_property name="ElementShortName">free_drop_descriptor_ack_s</obj_property>
+            <obj_property name="ObjectShortName">free_drop_descriptor_ack_s</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group424">
+      <obj_property name="label">push_interface</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/p_len_i">
+         <obj_property name="ElementShortName">p_len_i[10:0]</obj_property>
+         <obj_property name="ObjectShortName">p_len_i[10:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/p_addr_i">
+         <obj_property name="ElementShortName">p_addr_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">p_addr_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/p_queue_id_i">
+         <obj_property name="ElementShortName">p_queue_id_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">p_queue_id_i[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/p_valid_i">
+         <obj_property name="ElementShortName">p_valid_i</obj_property>
+         <obj_property name="ObjectShortName">p_valid_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/p_accept_ready_o">
+         <obj_property name="ElementShortName">p_accept_ready_o</obj_property>
+         <obj_property name="ObjectShortName">p_accept_ready_o</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group1145">
+      <obj_property name="label">push_queue</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/enqueue_job_queue_inst/data_i">
+         <obj_property name="ElementShortName">data_i[74:0]</obj_property>
+         <obj_property name="ObjectShortName">data_i[74:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/enqueue_job_queue_inst/valid_i">
+         <obj_property name="ElementShortName">valid_i</obj_property>
+         <obj_property name="ObjectShortName">valid_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/enqueue_job_queue_inst/ack_o">
+         <obj_property name="ElementShortName">ack_o</obj_property>
+         <obj_property name="ObjectShortName">ack_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/enqueue_job_queue_inst/ready_o">
+         <obj_property name="ElementShortName">ready_o</obj_property>
+         <obj_property name="ObjectShortName">ready_o</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/enqueue_job_queue_inst/data_o">
+         <obj_property name="ElementShortName">data_o[74:0]</obj_property>
+         <obj_property name="ObjectShortName">data_o[74:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/enqueue_job_queue_inst/valid_o">
+         <obj_property name="ElementShortName">valid_o</obj_property>
+         <obj_property name="ObjectShortName">valid_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/enqueue_job_queue_inst/pop_i">
+         <obj_property name="ElementShortName">pop_i</obj_property>
+         <obj_property name="ObjectShortName">pop_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/enqueue_job_queue_inst/in_pointer_s">
+         <obj_property name="ElementShortName">in_pointer_s[2:0]</obj_property>
+         <obj_property name="ObjectShortName">in_pointer_s[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/enqueue_job_queue_inst/out_pointer_s">
+         <obj_property name="ElementShortName">out_pointer_s[2:0]</obj_property>
+         <obj_property name="ObjectShortName">out_pointer_s[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/enqueue_job_queue_inst/full">
+         <obj_property name="ElementShortName">full</obj_property>
+         <obj_property name="ObjectShortName">full</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/enqueue_job_queue_inst/empty">
+         <obj_property name="ElementShortName">empty</obj_property>
+         <obj_property name="ObjectShortName">empty</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/enqueue_job_queue_inst/inc_out_pointer_s">
+         <obj_property name="ElementShortName">inc_out_pointer_s[2:0]</obj_property>
+         <obj_property name="ObjectShortName">inc_out_pointer_s[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/enqueue_job_queue_inst/inc_empty">
+         <obj_property name="ElementShortName">inc_empty</obj_property>
+         <obj_property name="ObjectShortName">inc_empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="divider1146" type="divider">
+         <obj_property name="label">end_push_queue</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="BkColor">#DCDCDC</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group1015">
+      <obj_property name="label">push_interface_internal</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/p_len_s">
+         <obj_property name="ElementShortName">p_len_s[10:0]</obj_property>
+         <obj_property name="ObjectShortName">p_len_s[10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/p_addr_s">
+         <obj_property name="ElementShortName">p_addr_s[31:0]</obj_property>
+         <obj_property name="ObjectShortName">p_addr_s[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/p_queue_id_s">
+         <obj_property name="ElementShortName">p_queue_id_s[31:0]</obj_property>
+         <obj_property name="ObjectShortName">p_queue_id_s[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/p_valid_s">
+         <obj_property name="ElementShortName">p_valid_s</obj_property>
+         <obj_property name="ObjectShortName">p_valid_s</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/p_pop_s">
+         <obj_property name="ElementShortName">p_pop_s</obj_property>
+         <obj_property name="ObjectShortName">p_pop_s</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group413">
+      <obj_property name="label">free_mem_o_interface</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/free_mem_addr_o">
+         <obj_property name="ElementShortName">free_mem_addr_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">free_mem_addr_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/free_mem_o">
+         <obj_property name="ElementShortName">free_mem_o</obj_property>
+         <obj_property name="ObjectShortName">free_mem_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/free_mem_ack_i">
+         <obj_property name="ElementShortName">free_mem_ack_i</obj_property>
+         <obj_property name="ObjectShortName">free_mem_ack_i</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group326">
+      <obj_property name="label">pop_interface</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/pop_queue_id_base_i">
+         <obj_property name="ElementShortName">pop_queue_id_base_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pop_queue_id_base_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/pop_set_base_queue_id_i">
+         <obj_property name="ElementShortName">pop_set_base_queue_id_i</obj_property>
+         <obj_property name="ObjectShortName">pop_set_base_queue_id_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/pop_set_base_ready_o">
+         <obj_property name="ElementShortName">pop_set_base_ready_o</obj_property>
+         <obj_property name="ObjectShortName">pop_set_base_ready_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/pop_id_valid_o">
+         <obj_property name="ElementShortName">pop_id_valid_o</obj_property>
+         <obj_property name="ObjectShortName">pop_id_valid_o</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/pop_queue_id_o">
+         <obj_property name="ElementShortName">pop_queue_id_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pop_queue_id_o[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/pop_i">
+         <obj_property name="ElementShortName">pop_i</obj_property>
+         <obj_property name="ObjectShortName">pop_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/valid_o">
+         <obj_property name="ElementShortName">valid_o</obj_property>
+         <obj_property name="ObjectShortName">valid_o</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/pop_addr_o">
+         <obj_property name="ElementShortName">pop_addr_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pop_addr_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/pop_queue_len_o">
+         <obj_property name="ElementShortName">pop_queue_len_o[23:0]</obj_property>
+         <obj_property name="ObjectShortName">pop_queue_len_o[23:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/pop_len_o">
+         <obj_property name="ElementShortName">pop_len_o[10:0]</obj_property>
+         <obj_property name="ObjectShortName">pop_len_o[10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/push_state">
+      <obj_property name="ElementShortName">push_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">push_state[2:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/pop_state">
+      <obj_property name="ElementShortName">pop_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">pop_state[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group160">
+      <obj_property name="label">memory</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group1137">
+      <obj_property name="label">queues_push_mem</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/write_queues_push_s">
+         <obj_property name="ElementShortName">write_queues_push_s[8:0]</obj_property>
+         <obj_property name="ObjectShortName">write_queues_push_s[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/addr_queues_push_s">
+         <obj_property name="ElementShortName">addr_queues_push_s[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_queues_push_s[9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/ready_queue_mem_push_s">
+         <obj_property name="ElementShortName">ready_queue_mem_push_s</obj_property>
+         <obj_property name="ObjectShortName">ready_queue_mem_push_s</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/re_queue_push_s">
+         <obj_property name="ElementShortName">re_queue_push_s</obj_property>
+         <obj_property name="ObjectShortName">re_queue_push_s</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/write_valid_push_s">
+         <obj_property name="ElementShortName">write_valid_push_s</obj_property>
+         <obj_property name="ObjectShortName">write_valid_push_s</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/data_read_queues_push_s">
+         <obj_property name="ElementShortName">data_read_queues_push_s[71:0]</obj_property>
+         <obj_property name="ObjectShortName">data_read_queues_push_s[71:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/data_write_queues_push_length_s">
+         <obj_property name="ElementShortName">data_write_queues_push_length_s[23:0]</obj_property>
+         <obj_property name="ObjectShortName">data_write_queues_push_length_s[23:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/data_write_queues_push_first_s">
+         <obj_property name="ElementShortName">data_write_queues_push_first_s[23:0]</obj_property>
+         <obj_property name="ObjectShortName">data_write_queues_push_first_s[23:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/data_write_queues_push_last_s">
+         <obj_property name="ElementShortName">data_write_queues_push_last_s[23:0]</obj_property>
+         <obj_property name="ObjectShortName">data_write_queues_push_last_s[23:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/data_write_queues_push_s">
+         <obj_property name="ElementShortName">data_write_queues_push_s[71:0]</obj_property>
+         <obj_property name="ObjectShortName">data_write_queues_push_s[71:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/write_queues_push_s">
+         <obj_property name="ElementShortName">write_queues_push_s[8:0]</obj_property>
+         <obj_property name="ObjectShortName">write_queues_push_s[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/data_read_queues_push_first_s">
+         <obj_property name="ElementShortName">data_read_queues_push_first_s[23:0]</obj_property>
+         <obj_property name="ObjectShortName">data_read_queues_push_first_s[23:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/data_read_queues_push_last_s">
+         <obj_property name="ElementShortName">data_read_queues_push_last_s[23:0]</obj_property>
+         <obj_property name="ObjectShortName">data_read_queues_push_last_s[23:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/data_read_queues_push_length_s">
+         <obj_property name="ElementShortName">data_read_queues_push_length_s[23:0]</obj_property>
+         <obj_property name="ObjectShortName">data_read_queues_push_length_s[23:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group1130">
+      <obj_property name="label">queues_pop_mem</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/addr_queues_pop_s">
+         <obj_property name="ElementShortName">addr_queues_pop_s[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_queues_pop_s[9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/write_queues_pop_s">
+         <obj_property name="ElementShortName">write_queues_pop_s[8:0]</obj_property>
+         <obj_property name="ObjectShortName">write_queues_pop_s[8:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/re_queue_pop_s">
+         <obj_property name="ElementShortName">re_queue_pop_s</obj_property>
+         <obj_property name="ObjectShortName">re_queue_pop_s</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/data_write_queues_pop_s">
+         <obj_property name="ElementShortName">data_write_queues_pop_s[71:0]</obj_property>
+         <obj_property name="ObjectShortName">data_write_queues_pop_s[71:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/data_write_queues_pop_first_s">
+         <obj_property name="ElementShortName">data_write_queues_pop_first_s[23:0]</obj_property>
+         <obj_property name="ObjectShortName">data_write_queues_pop_first_s[23:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/data_write_queues_pop_last_s">
+         <obj_property name="ElementShortName">data_write_queues_pop_last_s[23:0]</obj_property>
+         <obj_property name="ObjectShortName">data_write_queues_pop_last_s[23:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/data_write_queues_pop_length_s">
+         <obj_property name="ElementShortName">data_write_queues_pop_length_s[23:0]</obj_property>
+         <obj_property name="ObjectShortName">data_write_queues_pop_length_s[23:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/data_read_queues_pop_s">
+         <obj_property name="ElementShortName">data_read_queues_pop_s[71:0]</obj_property>
+         <obj_property name="ObjectShortName">data_read_queues_pop_s[71:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/data_read_queues_pop_first_s">
+         <obj_property name="ElementShortName">data_read_queues_pop_first_s[23:0]</obj_property>
+         <obj_property name="ObjectShortName">data_read_queues_pop_first_s[23:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/data_read_queues_pop_last_s">
+         <obj_property name="ElementShortName">data_read_queues_pop_last_s[23:0]</obj_property>
+         <obj_property name="ObjectShortName">data_read_queues_pop_last_s[23:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/data_read_queues_pop_length_s">
+         <obj_property name="ElementShortName">data_read_queues_pop_length_s[23:0]</obj_property>
+         <obj_property name="ObjectShortName">data_read_queues_pop_length_s[23:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group1056">
+      <obj_property name="label">valid_push_mem</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/write_valid_push_s">
+         <obj_property name="ElementShortName">write_valid_push_s</obj_property>
+         <obj_property name="ObjectShortName">write_valid_push_s</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/addr_valid_push_s">
+         <obj_property name="ElementShortName">addr_valid_push_s[4:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_valid_push_s[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/data_read_valid_push_s">
+         <obj_property name="ElementShortName">data_read_valid_push_s[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_read_valid_push_s[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/data_write_valid_push_s">
+         <obj_property name="ElementShortName">data_write_valid_push_s[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_write_valid_push_s[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group1051">
+      <obj_property name="label">valid_pop_mem</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/write_valid_pop_s">
+         <obj_property name="ElementShortName">write_valid_pop_s</obj_property>
+         <obj_property name="ObjectShortName">write_valid_pop_s</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/addr_valid_pop_s">
+         <obj_property name="ElementShortName">addr_valid_pop_s[4:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_valid_pop_s[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/data_read_valid_pop_s">
+         <obj_property name="ElementShortName">data_read_valid_pop_s[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_read_valid_pop_s[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/data_write_valid_pop_s">
+         <obj_property name="ElementShortName">data_write_valid_pop_s[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_write_valid_pop_s[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group1108">
+      <obj_property name="label">descriptor_push_mem</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/addr_descriptor_push_s">
+         <obj_property name="ElementShortName">addr_descriptor_push_s[23:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_descriptor_push_s[23:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/write_descriptor_push_addr_s">
+         <obj_property name="ElementShortName">write_descriptor_push_addr_s</obj_property>
+         <obj_property name="ObjectShortName">write_descriptor_push_addr_s</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/write_descriptor_push_length_s">
+         <obj_property name="ElementShortName">write_descriptor_push_length_s</obj_property>
+         <obj_property name="ObjectShortName">write_descriptor_push_length_s</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/write_descriptor_push_next_s">
+         <obj_property name="ElementShortName">write_descriptor_push_next_s</obj_property>
+         <obj_property name="ObjectShortName">write_descriptor_push_next_s</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/data_write_descriptor_addr_push_s">
+         <obj_property name="ElementShortName">data_write_descriptor_addr_push_s[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_write_descriptor_addr_push_s[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/data_write_descriptor_length_push_s">
+         <obj_property name="ElementShortName">data_write_descriptor_length_push_s[15:0]</obj_property>
+         <obj_property name="ObjectShortName">data_write_descriptor_length_push_s[15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/data_write_descriptor_next_push_s">
+         <obj_property name="ElementShortName">data_write_descriptor_next_push_s[23:0]</obj_property>
+         <obj_property name="ObjectShortName">data_write_descriptor_next_push_s[23:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/ready_descriptor_mem_push_s">
+         <obj_property name="ElementShortName">ready_descriptor_mem_push_s</obj_property>
+         <obj_property name="ObjectShortName">ready_descriptor_mem_push_s</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group1116">
+      <obj_property name="label">descriptor_pop_mem</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/addr_descriptor_pop_s">
+         <obj_property name="ElementShortName">addr_descriptor_pop_s[23:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_descriptor_pop_s[23:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/data_read_descriptor_pop_s">
+         <obj_property name="ElementShortName">data_read_descriptor_pop_s[71:0]</obj_property>
+         <obj_property name="ObjectShortName">data_read_descriptor_pop_s[71:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/data_read_descriptor_addr_pop_s">
+         <obj_property name="ElementShortName">data_read_descriptor_addr_pop_s[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_read_descriptor_addr_pop_s[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/data_read_descriptor_length_pop_s">
+         <obj_property name="ElementShortName">data_read_descriptor_length_pop_s[15:0]</obj_property>
+         <obj_property name="ObjectShortName">data_read_descriptor_length_pop_s[15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/data_read_descriptor_next_pop_s">
+         <obj_property name="ElementShortName">data_read_descriptor_next_pop_s[23:0]</obj_property>
+         <obj_property name="ObjectShortName">data_read_descriptor_next_pop_s[23:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group1222">
+      <obj_property name="label">internal</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/max_queue_length_s_reg">
+         <obj_property name="ElementShortName">max_queue_length_s_reg[23:0]</obj_property>
+         <obj_property name="ObjectShortName">max_queue_length_s_reg[23:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/p_queue_id_push_reg_s">
+         <obj_property name="ElementShortName">p_queue_id_push_reg_s[31:0]</obj_property>
+         <obj_property name="ObjectShortName">p_queue_id_push_reg_s[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/data_read_queues_push_length_s_reg">
+         <obj_property name="ElementShortName">data_read_queues_push_length_s_reg[23:0]</obj_property>
+         <obj_property name="ObjectShortName">data_read_queues_push_length_s_reg[23:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/data_read_queues_push_length_s">
+         <obj_property name="ElementShortName">data_read_queues_push_length_s[23:0]</obj_property>
+         <obj_property name="ObjectShortName">data_read_queues_push_length_s[23:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/p_queue_id_i">
+         <obj_property name="ElementShortName">p_queue_id_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">p_queue_id_i[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/p_queue_id_s">
+         <obj_property name="ElementShortName">p_queue_id_s[31:0]</obj_property>
+         <obj_property name="ObjectShortName">p_queue_id_s[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="group" fp_name="group619">
+         <obj_property name="label">lock</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/debug_locked_push">
+            <obj_property name="ElementShortName">debug_locked_push</obj_property>
+            <obj_property name="ObjectShortName">debug_locked_push</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/debug_locked_pop">
+            <obj_property name="ElementShortName">debug_locked_pop</obj_property>
+            <obj_property name="ObjectShortName">debug_locked_pop</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/push_lock_valid_s">
+            <obj_property name="ElementShortName">push_lock_valid_s</obj_property>
+            <obj_property name="ObjectShortName">push_lock_valid_s</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/pop_lock_valid_s">
+            <obj_property name="ElementShortName">pop_lock_valid_s</obj_property>
+            <obj_property name="ObjectShortName">pop_lock_valid_s</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/push_lock_id_range_s">
+            <obj_property name="ElementShortName">push_lock_id_range_s[26:0]</obj_property>
+            <obj_property name="ObjectShortName">push_lock_id_range_s[26:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/pop_lock_id_range_s">
+            <obj_property name="ElementShortName">pop_lock_id_range_s[26:0]</obj_property>
+            <obj_property name="ObjectShortName">pop_lock_id_range_s[26:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/data_read_queues_pop_first_s_reg">
+            <obj_property name="ElementShortName">data_read_queues_pop_first_s_reg[23:0]</obj_property>
+            <obj_property name="ObjectShortName">data_read_queues_pop_first_s_reg[23:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/queue_memoy_inst/data_read_queues_pop_first_s_reg">
+            <obj_property name="ElementShortName">data_read_queues_pop_first_s_reg[23:0]</obj_property>
+            <obj_property name="ObjectShortName">data_read_queues_pop_first_s_reg[23:0]</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider399" type="divider">
+      <obj_property name="label">Scheduler</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group404">
+      <obj_property name="label">TX-Handler Interface</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/valid_packet_s">
+         <obj_property name="ElementShortName">valid_packet_s</obj_property>
+         <obj_property name="ObjectShortName">valid_packet_s</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/addr_packet_scheduler_s">
+         <obj_property name="ElementShortName">addr_packet_scheduler_s[31:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_packet_scheduler_s[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/length_packet_scheduler_s">
+         <obj_property name="ElementShortName">length_packet_scheduler_s[10:0]</obj_property>
+         <obj_property name="ObjectShortName">length_packet_scheduler_s[10:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group438">
+      <obj_property name="label">wb_interface</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/wb_cyc_i">
+         <obj_property name="ElementShortName">wb_cyc_i</obj_property>
+         <obj_property name="ObjectShortName">wb_cyc_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/wb_adr_i">
+         <obj_property name="ElementShortName">wb_adr_i[21:0]</obj_property>
+         <obj_property name="ObjectShortName">wb_adr_i[21:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/wb_we_i">
+         <obj_property name="ElementShortName">wb_we_i</obj_property>
+         <obj_property name="ObjectShortName">wb_we_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/wb_dat_i">
+         <obj_property name="ElementShortName">wb_dat_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wb_dat_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/wb_ack_o">
+         <obj_property name="ElementShortName">wb_ack_o</obj_property>
+         <obj_property name="ObjectShortName">wb_ack_o</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/wb_dat_o">
+         <obj_property name="ElementShortName">wb_dat_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wb_dat_o[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group452">
+      <obj_property name="label">external</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/pop_queue_id_base_o">
+         <obj_property name="ElementShortName">pop_queue_id_base_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pop_queue_id_base_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/pop_set_base_queue_id_o">
+         <obj_property name="ElementShortName">pop_set_base_queue_id_o</obj_property>
+         <obj_property name="ObjectShortName">pop_set_base_queue_id_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/pop_set_base_ready_i">
+         <obj_property name="ElementShortName">pop_set_base_ready_i</obj_property>
+         <obj_property name="ObjectShortName">pop_set_base_ready_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/pop_queue_id_i">
+         <obj_property name="ElementShortName">pop_queue_id_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pop_queue_id_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/id_valid_i">
+         <obj_property name="ElementShortName">id_valid_i</obj_property>
+         <obj_property name="ObjectShortName">id_valid_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/pop_o">
+         <obj_property name="ElementShortName">pop_o</obj_property>
+         <obj_property name="ObjectShortName">pop_o</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/pop_addr_i">
+         <obj_property name="ElementShortName">pop_addr_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pop_addr_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/pop_len_i">
+         <obj_property name="ElementShortName">pop_len_i[10:0]</obj_property>
+         <obj_property name="ObjectShortName">pop_len_i[10:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/valid_i">
+         <obj_property name="ElementShortName">valid_i</obj_property>
+         <obj_property name="ObjectShortName">valid_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/valid_packet_o">
+         <obj_property name="ElementShortName">valid_packet_o</obj_property>
+         <obj_property name="ObjectShortName">valid_packet_o</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/addr_packet_scheduler_o">
+         <obj_property name="ElementShortName">addr_packet_scheduler_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_packet_scheduler_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/length_packet_scheduler_o">
+         <obj_property name="ElementShortName">length_packet_scheduler_o[10:0]</obj_property>
+         <obj_property name="ObjectShortName">length_packet_scheduler_o[10:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/ack_from_tx_handler_i">
+         <obj_property name="ElementShortName">ack_from_tx_handler_i</obj_property>
+         <obj_property name="ObjectShortName">ack_from_tx_handler_i</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group459">
+      <obj_property name="label">internal</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/inner_address">
+         <obj_property name="ElementShortName">inner_address[18:0]</obj_property>
+         <obj_property name="ObjectShortName">inner_address[18:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/outer_address">
+         <obj_property name="ElementShortName">outer_address[2:0]</obj_property>
+         <obj_property name="ObjectShortName">outer_address[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/wb_rl1_cyc_s">
+         <obj_property name="ElementShortName">wb_rl1_cyc_s</obj_property>
+         <obj_property name="ObjectShortName">wb_rl1_cyc_s</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/wb_rl1_adr_s">
+         <obj_property name="ElementShortName">wb_rl1_adr_s[16:0]</obj_property>
+         <obj_property name="ObjectShortName">wb_rl1_adr_s[16:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/wb_rl1_we_s">
+         <obj_property name="ElementShortName">wb_rl1_we_s</obj_property>
+         <obj_property name="ObjectShortName">wb_rl1_we_s</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/wb_rl1_dat_r_s">
+         <obj_property name="ElementShortName">wb_rl1_dat_r_s[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wb_rl1_dat_r_s[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/wb_rl1_ack_s">
+         <obj_property name="ElementShortName">wb_rl1_ack_s</obj_property>
+         <obj_property name="ObjectShortName">wb_rl1_ack_s</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/wb_rl1_dat_w_s">
+         <obj_property name="ElementShortName">wb_rl1_dat_w_s[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wb_rl1_dat_w_s[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/id_valid_s">
+         <obj_property name="ElementShortName">id_valid_s</obj_property>
+         <obj_property name="ObjectShortName">id_valid_s</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/ok_s">
+         <obj_property name="ElementShortName">ok_s</obj_property>
+         <obj_property name="ObjectShortName">ok_s</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/ok_valid_s">
+         <obj_property name="ElementShortName">ok_valid_s</obj_property>
+         <obj_property name="ObjectShortName">ok_valid_s</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/drop_it_s">
+         <obj_property name="ElementShortName">drop_it_s</obj_property>
+         <obj_property name="ObjectShortName">drop_it_s</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/take_it_s">
+         <obj_property name="ElementShortName">take_it_s</obj_property>
+         <obj_property name="ObjectShortName">take_it_s</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/next_id_s">
+         <obj_property name="ElementShortName">next_id_s[31:0]</obj_property>
+         <obj_property name="ObjectShortName">next_id_s[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/pop_queue_id_i_reg">
+         <obj_property name="ElementShortName">pop_queue_id_i_reg[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pop_queue_id_i_reg[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/scheduler_state">
+         <obj_property name="ElementShortName">scheduler_state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">scheduler_state[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/next_scheduler_state">
+         <obj_property name="ElementShortName">next_scheduler_state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">next_scheduler_state[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/store_packet_in_scheduler_s">
+         <obj_property name="ElementShortName">store_packet_in_scheduler_s</obj_property>
+         <obj_property name="ObjectShortName">store_packet_in_scheduler_s</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/next_pop_queue_id_base_o">
+         <obj_property name="ElementShortName">next_pop_queue_id_base_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">next_pop_queue_id_base_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/sleep_startup_s">
+         <obj_property name="ElementShortName">sleep_startup_s</obj_property>
+         <obj_property name="ObjectShortName">sleep_startup_s</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group2025">
+      <obj_property name="label">rate_limiter</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/rate_limiter_inst/state">
+         <obj_property name="ElementShortName">state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">state[2:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/rate_limiter_inst/id_i">
+         <obj_property name="ElementShortName">id_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">id_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/rate_limiter_inst/id_valid_i">
+         <obj_property name="ElementShortName">id_valid_i</obj_property>
+         <obj_property name="ObjectShortName">id_valid_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/rate_limiter_inst/ok_o">
+         <obj_property name="ElementShortName">ok_o</obj_property>
+         <obj_property name="ObjectShortName">ok_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/rate_limiter_inst/ok_valid_o">
+         <obj_property name="ElementShortName">ok_valid_o</obj_property>
+         <obj_property name="ObjectShortName">ok_valid_o</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/rate_limiter_inst/next_id_o">
+         <obj_property name="ElementShortName">next_id_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">next_id_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/rate_limiter_inst/drop_it_i">
+         <obj_property name="ElementShortName">drop_it_i</obj_property>
+         <obj_property name="ObjectShortName">drop_it_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/rate_limiter_inst/take_it_i">
+         <obj_property name="ElementShortName">take_it_i</obj_property>
+         <obj_property name="ObjectShortName">take_it_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/rate_limiter_inst/update_plen_i">
+         <obj_property name="ElementShortName">update_plen_i[10:0]</obj_property>
+         <obj_property name="ObjectShortName">update_plen_i[10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/rate_limiter_inst/write_new_rate_s">
+         <obj_property name="ElementShortName">write_new_rate_s</obj_property>
+         <obj_property name="ObjectShortName">write_new_rate_s</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/rate_limiter_inst/read_rate_s">
+         <obj_property name="ElementShortName">read_rate_s</obj_property>
+         <obj_property name="ObjectShortName">read_rate_s</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/rate_limiter_inst/save_local_time_s">
+         <obj_property name="ElementShortName">save_local_time_s</obj_property>
+         <obj_property name="ObjectShortName">save_local_time_s</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/rate_limiter_inst/local_time_s">
+         <obj_property name="ElementShortName">local_time_s[20:0]</obj_property>
+         <obj_property name="ObjectShortName">local_time_s[20:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/rate_limiter_inst/diff_time_s">
+         <obj_property name="ElementShortName">diff_time_s[20:0]</obj_property>
+         <obj_property name="ObjectShortName">diff_time_s[20:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/SimpleScheduler_inst/rate_limiter_inst/next_new_bucket_val_s">
+         <obj_property name="ElementShortName">next_new_bucket_val_s[17:0]</obj_property>
+         <obj_property name="ObjectShortName">next_new_bucket_val_s[17:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider602" type="divider">
+      <obj_property name="label">Counter</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group1217">
+      <obj_property name="label">wb_interface</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group610">
+      <obj_property name="label">internal</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="group" fp_name="group1300">
+         <obj_property name="label">memory</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider452" type="divider">
+      <obj_property name="label">Tx-Handler</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/addr_packet_s">
+      <obj_property name="ElementShortName">addr_packet_s[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_packet_s[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/length_packet_s">
+      <obj_property name="ElementShortName">length_packet_s[10:0]</obj_property>
+      <obj_property name="ObjectShortName">length_packet_s[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/packet_length_mem">
+      <obj_property name="ElementShortName">packet_length_mem[3:0][10:0]</obj_property>
+      <obj_property name="ObjectShortName">packet_length_mem[3:0][10:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/valid_ids">
+      <obj_property name="ElementShortName">valid_ids[3:0]</obj_property>
+      <obj_property name="ObjectShortName">valid_ids[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/next_unused_id_s">
+      <obj_property name="ElementShortName">next_unused_id_s[1:0]</obj_property>
+      <obj_property name="ObjectShortName">next_unused_id_s[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group470">
+      <obj_property name="label">AXI-Interface</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/m_axi_arid_o">
+         <obj_property name="ElementShortName">m_axi_arid_o[1:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_arid_o[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/m_axi_araddr_o">
+         <obj_property name="ElementShortName">m_axi_araddr_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_araddr_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/m_axi_arlen_o">
+         <obj_property name="ElementShortName">m_axi_arlen_o[7:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_arlen_o[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/m_axi_arsize_o">
+         <obj_property name="ElementShortName">m_axi_arsize_o[2:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_arsize_o[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/m_axi_arburst_o">
+         <obj_property name="ElementShortName">m_axi_arburst_o[1:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_arburst_o[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/m_axi_arlock_o">
+         <obj_property name="ElementShortName">m_axi_arlock_o[0:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_arlock_o[0:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/m_axi_arcache_o">
+         <obj_property name="ElementShortName">m_axi_arcache_o[3:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_arcache_o[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/m_axi_arprot_o">
+         <obj_property name="ElementShortName">m_axi_arprot_o[2:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_arprot_o[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/m_axi_arqos_o">
+         <obj_property name="ElementShortName">m_axi_arqos_o[3:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_arqos_o[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/m_axi_arvalid_o">
+         <obj_property name="ElementShortName">m_axi_arvalid_o</obj_property>
+         <obj_property name="ObjectShortName">m_axi_arvalid_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/m_axi_arready_i">
+         <obj_property name="ElementShortName">m_axi_arready_i</obj_property>
+         <obj_property name="ObjectShortName">m_axi_arready_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/m_axi_rid_i">
+         <obj_property name="ElementShortName">m_axi_rid_i[1:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_rid_i[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/m_axi_rdata_i">
+         <obj_property name="ElementShortName">m_axi_rdata_i[511:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_rdata_i[511:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/m_axi_rresp_i">
+         <obj_property name="ElementShortName">m_axi_rresp_i[1:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_rresp_i[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/m_axi_rlast_i">
+         <obj_property name="ElementShortName">m_axi_rlast_i</obj_property>
+         <obj_property name="ObjectShortName">m_axi_rlast_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/m_axi_rvalid_i">
+         <obj_property name="ElementShortName">m_axi_rvalid_i</obj_property>
+         <obj_property name="ObjectShortName">m_axi_rvalid_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/m_axi_rready_o">
+         <obj_property name="ElementShortName">m_axi_rready_o</obj_property>
+         <obj_property name="ObjectShortName">m_axi_rready_o</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group476">
+      <obj_property name="label">TX-AXIS</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/axis_tready_s">
+         <obj_property name="ElementShortName">axis_tready_s</obj_property>
+         <obj_property name="ObjectShortName">axis_tready_s</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/axis_tvalid_s">
+         <obj_property name="ElementShortName">axis_tvalid_s</obj_property>
+         <obj_property name="ObjectShortName">axis_tvalid_s</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/axis_tdata_s">
+         <obj_property name="ElementShortName">axis_tdata_s[511:0]</obj_property>
+         <obj_property name="ObjectShortName">axis_tdata_s[511:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/axis_tkeep_s">
+         <obj_property name="ElementShortName">axis_tkeep_s[63:0]</obj_property>
+         <obj_property name="ObjectShortName">axis_tkeep_s[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/axis_tlast_s">
+         <obj_property name="ElementShortName">axis_tlast_s</obj_property>
+         <obj_property name="ObjectShortName">axis_tlast_s</obj_property>
+      </wvobject>
+      <wvobject type="group" fp_name="group460">
+         <obj_property name="label">out</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/m_axis_tready_i">
+            <obj_property name="ElementShortName">m_axis_tready_i</obj_property>
+            <obj_property name="ObjectShortName">m_axis_tready_i</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/m_axis_tvalid_o">
+            <obj_property name="ElementShortName">m_axis_tvalid_o</obj_property>
+            <obj_property name="ObjectShortName">m_axis_tvalid_o</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/m_axis_tdata_o">
+            <obj_property name="ElementShortName">m_axis_tdata_o[511:0]</obj_property>
+            <obj_property name="ObjectShortName">m_axis_tdata_o[511:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/m_axis_tkeep_o">
+            <obj_property name="ElementShortName">m_axis_tkeep_o[63:0]</obj_property>
+            <obj_property name="ObjectShortName">m_axis_tkeep_o[63:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/m_axis_tlast_o">
+            <obj_property name="ElementShortName">m_axis_tlast_o</obj_property>
+            <obj_property name="ObjectShortName">m_axis_tlast_o</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group487">
+      <obj_property name="label">dequeue interface</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group1754">
+      <obj_property name="label">scheduler interface</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/valid_packet_i">
+         <obj_property name="ElementShortName">valid_packet_i</obj_property>
+         <obj_property name="ObjectShortName">valid_packet_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/addr_packet_scheduler_i">
+         <obj_property name="ElementShortName">addr_packet_scheduler_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_packet_scheduler_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/length_packet_scheduler_i">
+         <obj_property name="ElementShortName">length_packet_scheduler_i[10:0]</obj_property>
+         <obj_property name="ObjectShortName">length_packet_scheduler_i[10:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/ack_from_tx_handler_o">
+         <obj_property name="ElementShortName">ack_from_tx_handler_o</obj_property>
+         <obj_property name="ObjectShortName">ack_from_tx_handler_o</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group341">
+      <obj_property name="label">free-interface</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/free_mem_addr_o">
+         <obj_property name="ElementShortName">free_mem_addr_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">free_mem_addr_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/free_mem_o">
+         <obj_property name="ElementShortName">free_mem_o</obj_property>
+         <obj_property name="ObjectShortName">free_mem_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/free_mem_ack_i">
+         <obj_property name="ElementShortName">free_mem_ack_i</obj_property>
+         <obj_property name="ObjectShortName">free_mem_ack_i</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider1102" type="divider">
+      <obj_property name="label">TX_FIFO</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group1114">
+      <obj_property name="label">TX-Fifo</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="group" fp_name="group665">
+         <obj_property name="label">s_axis</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/tx_fifo/s_axis_tready_o">
+            <obj_property name="ElementShortName">s_axis_tready_o</obj_property>
+            <obj_property name="ObjectShortName">s_axis_tready_o</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/tx_fifo/s_axis_tvalid_i">
+            <obj_property name="ElementShortName">s_axis_tvalid_i</obj_property>
+            <obj_property name="ObjectShortName">s_axis_tvalid_i</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/tx_fifo/s_axis_tdata_i">
+            <obj_property name="ElementShortName">s_axis_tdata_i[511:0]</obj_property>
+            <obj_property name="ObjectShortName">s_axis_tdata_i[511:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/tx_fifo/s_axis_tkeep_i">
+            <obj_property name="ElementShortName">s_axis_tkeep_i[63:0]</obj_property>
+            <obj_property name="ObjectShortName">s_axis_tkeep_i[63:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/tx_fifo/s_axis_tlast_i">
+            <obj_property name="ElementShortName">s_axis_tlast_i</obj_property>
+            <obj_property name="ObjectShortName">s_axis_tlast_i</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group666">
+         <obj_property name="label">m_axis</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/tx_fifo/m_axis_tready_i">
+            <obj_property name="ElementShortName">m_axis_tready_i</obj_property>
+            <obj_property name="ObjectShortName">m_axis_tready_i</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/tx_fifo/m_axis_tdata_o">
+            <obj_property name="ElementShortName">m_axis_tdata_o[511:0]</obj_property>
+            <obj_property name="ObjectShortName">m_axis_tdata_o[511:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/tx_fifo/m_axis_tkeep_o">
+            <obj_property name="ElementShortName">m_axis_tkeep_o[63:0]</obj_property>
+            <obj_property name="ObjectShortName">m_axis_tkeep_o[63:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/tx_fifo/m_axis_tlast_o">
+            <obj_property name="ElementShortName">m_axis_tlast_o</obj_property>
+            <obj_property name="ObjectShortName">m_axis_tlast_o</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/tx_fifo/m_axis_tvalid_o">
+            <obj_property name="ElementShortName">m_axis_tvalid_o</obj_property>
+            <obj_property name="ObjectShortName">m_axis_tvalid_o</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/tx_fifo/m_packet_length_o">
+            <obj_property name="ElementShortName">m_packet_length_o[10:0]</obj_property>
+            <obj_property name="ObjectShortName">m_packet_length_o[10:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/tx_fifo/empty">
+         <obj_property name="ElementShortName">empty</obj_property>
+         <obj_property name="ObjectShortName">empty</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/tx_fifo/full">
+         <obj_property name="ElementShortName">full</obj_property>
+         <obj_property name="ObjectShortName">full</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/tx_fifo/addr_in">
+         <obj_property name="ElementShortName">addr_in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_in[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/tx_fifo/addr_out">
+         <obj_property name="ElementShortName">addr_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_out[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/tx_fifo/store_data_s">
+         <obj_property name="ElementShortName">store_data_s</obj_property>
+         <obj_property name="ObjectShortName">store_data_s</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/tx_fifo/istate">
+         <obj_property name="ElementShortName">istate[1:0]</obj_property>
+         <obj_property name="ObjectShortName">istate[1:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/tx_fifo/store_rec_bytes_s">
+         <obj_property name="ElementShortName">store_rec_bytes_s</obj_property>
+         <obj_property name="ObjectShortName">store_rec_bytes_s</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/tx_fifo/revert_rec_packet">
+         <obj_property name="ElementShortName">revert_rec_packet</obj_property>
+         <obj_property name="ObjectShortName">revert_rec_packet</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/pcap_system_tb/sim_infrastructure_inst/NetworkFunctionTop_0/inst/tx_handler/tx_fifo/ostate">
+         <obj_property name="ElementShortName">ostate[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ostate[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,8 @@
+vivado_project_SUME/
+vivado_project_VCU1525/
+vivado_project_U200/
+.Xil/
+*.log
+*.pyc
+*.str
+python_virtualenv/*

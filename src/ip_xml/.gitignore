@@ -1,0 +1,8 @@
+vivado/
+.Xil/
+vivado.*
+*.log
+*.jou
+*.str
+*.pcap
+*.pyc

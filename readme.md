@@ -2,7 +2,7 @@
 This FPGA queueing system builds a basis for any kind of network packet queueing system which cannot be implemented with commodity switching ASICs and their build in schedulers. Consider this project as building blocks to enable your queueing challenges.
 
 For further information:
-* 2025: "Massive QoS-aware Packet Queueing and Traffic Shaping at the Access Edge using FPGAs" @ UEEE/IFIP NOMS 2025: [Paper](https://www.kom.tu-darmstadt.de/assets/bd94451c-4309-48da-8bd4-194f47be09bc/KWS___25.pdf)
+* 2025: "Massive QoS-aware Packet Queueing and Traffic Shaping at the Access Edge using FPGAs" @ IEEE/IFIP NOMS 2025: [Paper](https://www.kom.tu-darmstadt.de/assets/bd94451c-4309-48da-8bd4-194f47be09bc/KWS___25.pdf)
 
 
 
@@ -48,7 +48,7 @@ sudo -E python3 config_test.py -hw /sys/bus/pci/devices/0000:08:00.0/resource0
 
 ### Kernel Panik as a result of loading the bitfile
 It may happen, that the FPGA host server crashes while loading the bitfile. This is caused by the reconfiguration of an active PCIe device.
-To avoid this, the following command can be used to prevent this:
+To avoid this, the following command can be used to prevent this (replace PCIe bus address):
 ```
 sudo ./disable_err.sh 65:00.0
 ```
